@@ -1,0 +1,14 @@
+- method: GET
+  name: google.com index page
+  url: https://google.com/
+- method: GET
+  name: google.com maps page
+  url: https://google.com/maps
+- body: '{"foo":"bar"}'
+  headers:
+    content-type: application/json
+  method: POST
+  name: www.theshineapp.com some post endpoint
+  url: https://www.theshineapp.com/some/end
+- name: www.theshineapp.com index page
+  url: https://www.theshineapp.com/
