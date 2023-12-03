@@ -56,7 +56,7 @@ python app.py
 
 ### Time Complexity:
 
-1. Reading YAML file and processing entries in main function:
+1. Reading YAML file and processing entries in main functions:
 
     The time complexity for reading the YAML file and processing each entry is O(n), where n is the number of entries in the YAML file.
 
